@@ -3,6 +3,7 @@ import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import {Checkout} from 'gatsby-theme-stripe-checkout-button';
 import Wrapper from '../components/wrapper';
+import { SEO } from 'gatsby-theme-west-egg-core';
 
 
 const Layout = styled.div`
@@ -104,6 +105,7 @@ const Button = styled.button`
 
 export default () => (
     <Wrapper>
+        <SEO/>
         <Layout>
             <Card>
                 <Content>

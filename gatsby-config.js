@@ -26,6 +26,16 @@ module.exports = {
               ]
             }
         },
-        'gatsby-plugin-emotion'
+        {
+          resolve: 'gatsby-theme-west-egg-core',
+          options: {
+            title: 'gatsby-theme-stripe-checkout-button-example-site',
+            description: 'An example site showcasing gatsby-theme-stripe-checkout-button',
+            author: 'Hungry Bear Studio <roar@hungrybearstudio.com> (hungrybearstudio.com)',
+            siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
+            twitter: '@studio_hungry'
+          }
+        },
+        'gatsby-plugin-emotion',
     ]
 }
