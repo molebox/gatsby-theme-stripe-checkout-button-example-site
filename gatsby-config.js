@@ -12,7 +12,7 @@ module.exports = {
       {
         resolve: 'gatsby-theme-stripe-checkout-button',
         options: {
-          siteUrl: 'http://localhost:8000',
+          siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
           STRIPE_API_KEY: process.env.STRIPE_API_KEY,
           STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
         }
