@@ -125,7 +125,7 @@ export default () => (
                     </Info>
                     <Checkout
                         button={<Button color="#FFFFFF" backgroundColor="#663399">Buy Now</Button>}
-                        sku="sku_F2isNVUdAQq5Wb"
+                        sku="sku_F2wt2pvjhQrs0w"
                         quantity={1}
                     />
                 </Content>
