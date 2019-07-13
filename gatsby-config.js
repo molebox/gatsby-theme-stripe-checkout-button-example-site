@@ -8,6 +8,13 @@ require("dotenv").config({
 
 
 module.exports = {
+  siteMetadata: {
+    title: 'gatsby-theme-stripe-checkout-button-example-site',
+    description: 'An example site showcasing gatsby-theme-stripe-checkout-button',
+    author: 'Hungry Bear Studio <roar@hungrybearstudio.com> (hungrybearstudio.com)',
+    siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
+    twitter: '@studio_hungry'
+  },
     plugins: [
       {
         resolve: 'gatsby-theme-stripe-checkout-button',
@@ -25,16 +32,6 @@ module.exports = {
                 `source sans pro\:300,400,400i,700` 
               ]
             }
-        },
-        {
-          resolve: 'gatsby-theme-west-egg-core',
-          options: {
-            title: 'gatsby-theme-stripe-checkout-button-example-site',
-            description: 'An example site showcasing gatsby-theme-stripe-checkout-button',
-            author: 'Hungry Bear Studio <roar@hungrybearstudio.com> (hungrybearstudio.com)',
-            siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
-            twitter: '@studio_hungry'
-          }
         },
         'gatsby-plugin-emotion',
     ]
