@@ -3,7 +3,7 @@ import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import {Checkout} from 'gatsby-theme-stripe-checkout-button';
 import Wrapper from '../components/wrapper';
-import { SEO } from '../components/SEO';
+import SEO from '../components/SEO';
 
 
 const Layout = styled.div`
