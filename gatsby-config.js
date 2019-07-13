@@ -13,8 +13,8 @@ module.exports = {
         resolve: 'gatsby-theme-stripe-checkout-button',
         options: {
           siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
-          STRIPE_API_KEY: process.env.STRIPE_API_KEY,
-          STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+          STRIPE_API_KEY: process.env.GATSBY_API_STRIPE_API_KEY,
+          STRIPE_SECRET_KEY: process.env.GATSBY_API_STRIPE_SECRET_KEY,
         }
       },
         {
