@@ -48,7 +48,7 @@ const Card = styled.div`
     padding: 20px;
     border-radius: 30px;
 
-    background: #E49AB0;
+    background: white;
 `;
 
 const Link = styled.a`
