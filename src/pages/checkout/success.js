@@ -42,8 +42,8 @@ const Card = styled.div`
     width: auto;
     padding: 20px;
     border-radius: 30px;
-
-    background: #E49AB0;
+    
+    background: white;
 `;
 
 const Button = styled.button`
