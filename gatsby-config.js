@@ -19,9 +19,9 @@ module.exports = {
       {
         resolve: 'gatsby-theme-stripe-checkout-button',
         options: {
-          siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
-          STRIPE_API_KEY: process.env.STRIPE_API_KEY,
+          STRIPE_API_KEY: 'pk_test_sCZdKKv3RLpcLwCLybjQVKQE004MOo7pXE', // we can use this as it just identifies my stripe account
           STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+          siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com/',
         }
       },
         {

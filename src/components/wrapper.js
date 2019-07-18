@@ -8,6 +8,8 @@ export default ({ children }) => (
       body {
         margin: 0;
         padding: 0;
+        background: #663399;
+        font-family: Montserrat;
         }
       `}
     />
