@@ -146,7 +146,7 @@ export default () => (
                             </Info>
                             <Info>
                             <h4>
-                                To test the theme click the BUY NOW button below. You will redirected to the stripe checkout where you can fill out the card details listed below and complete your test purchase.
+                                To test the theme click the BUY NOW button below. You will be redirected to the stripe checkout where you can fill out the card details listed below and complete your test purchase.
                             </h4>
                             </Info>
                         </Card>
